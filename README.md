@@ -1,2 +1,28 @@
 # SupervisedLearning-Regression-SVMWithMultipleVariables
 This repository consists of implementation of SVM machine learning algorithm with multiple variables.
+
+Machine Learning concept being worked on:
+
+1. SVM machine learning algorithm falls under supervised learning.
+2. SVM falls under the classification category.
+3. In SVM, the data set that we process will have a set of features in each example along with a label. The value of label will be discrete instead of real / continous value.
+3. In SVM algorithm, we will learn a model. Based on the examples in the given dataset we will be able to predict the value of label (which will be discrete)
+4. Examples of the problems that SVM machine learning algorithm attempts to targets are 
+        a. The Trauma and Injury Severity Score
+        b. To predict the risk of developing a given disease, based on observed characteristics of the patient
+        c. To predict whether an Indian voter will vote BJP or Trinamool Congress or Left Front or Congress
+        d. It can be used to predict the likelihood of a person's choosing to be in the labor force
+
+In this example we will perform SVM to classify whether a customer will purchase or will not purchase. For this we learn a model based on the data provided about the customers, given their age and estimated salary.
+
+1. Dataset being used: social_network_ads.csv
+2. Feature being used: Age, EstimatedSalary
+3. Label being predicted: Purchase
+ 
+Python modules being used:
+
+1. os: This module provides a portable way of using operating system dependent functionality.
+2. pandas: Pandas provide high-performance data manipulation and analysis tool using its powerful data structures.
+3. numpy: NumPy is the fundamental package for scientific computing with Python.
+4. matplotlib: matplotlib is a plotting library for the Python programming language.
+5. sklearn: It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN
